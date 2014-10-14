@@ -1,0 +1,130 @@
+body {
+	background:url('../img/js.png') no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size:cover;
+	-o-background-size: cover;
+	background-size: cover;
+	font-family: 'Roboto Condensed', sans-serif;
+	height: auto;
+}
+
+div.container {
+	margin: 0 auto;
+	text-align: center;
+	color: #fff;
+	height: 1000px;
+}
+
+header {
+	margin: 2%;
+}
+/*Main Content*/
+#main {
+	margin-top: 3%;
+	font-size: 25px;
+	padding: 20px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-o-border-radius: 10px;
+	-ms-border-radius: 10px;
+	border-radius: 10px;
+	background-color: rgba(255,255,255,0.2);
+	margin: 0 auto;
+	width: 75%;
+}
+h1, h3, p, #q{
+	color: white;
+	text-shadow: 3px 3px 5px black;
+}
+
+#quizQuestions {
+	margin-bottom: 30px;
+	color: white;
+	text-shadow: 3px 3px 5px black;
+}
+
+#QuizSection label {
+	font-size: 18px;
+	color: white;
+	text-shadow: 3px 3px 5px black;
+}
+
+/** Review Section **/
+#review {
+	display: none;
+	margin: 20px auto;
+	height: 50px;
+	width: 350px;
+
+}
+
+.wrong, .right {
+	display: none;
+	margin-right: 10px;
+	font-weight: bold;
+	color: red;
+	font-size: 30px;
+}
+
+.right {
+	color: green;
+}
+
+#Review {
+	display: none;
+	text-align: left;
+	padding-left: 10.64%;
+	font-size: 18px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-o-border-radius: 10px;
+	-ms-border-radius: 10px;
+	border-radius: 25px;
+	background-color: rgba(255,255,255,0.2);
+	width: 75%;
+	margin: -875px auto;
+}
+#submit{
+	margin: 20px auto;
+	height: 50px;
+	width: 350px;
+	border-radius: 10px 10px 10px;
+}
+.btn-success{
+	border-radius: 10px 10px 10px;
+}
+.btn-danger{
+	margin: 0 auto;
+	text-align: center;
+}
+#Review{
+	padding: 30px;
+	text-align: center;
+}
+#Review p{
+	margin-top: 20px;
+	color: white;
+}
+#Review p.review {
+	text-decoration: underline;
+	color: #ff4500;
+}
+#restart{
+	margin: 20px auto;
+	height: 50px;
+	width: 350px;
+	border-radius: 10px 10px 10px;
+}
+
+#revButton {
+	margin-left: 10px;
+}
+
+#rightAns {
+	color: white;
+	font-size: 30px;
+	font-weight: bold;
+}
+.radio{
+	padding: 10px;
+}
